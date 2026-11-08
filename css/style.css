@@ -73,12 +73,12 @@ a {
 }
 
 .contenedor {
-    max-width: 120rem;
-    margin: 0 auto;
+	max-width: 120rem;
+	margin: 0 auto;
 }
 img {
-    max-width: 100%;
-    display: block;
+	max-width: 100%;
+	display: block;
 }
 /*Header*/
 
@@ -101,48 +101,48 @@ img {
 
 .hero-enlace {
 	padding: 1rem 5rem;
-  font-weight: bold;
-  border-radius: 1rem;
+	font-weight: bold;
+	border-radius: 1rem;
 }
 
-.hero-enlace:hover{
-  color: var(--color-blanco);
-  background-color: var(--color-texto);
-  border-radius: 1rem;
-  transition: all 0.3s ease-in-out;
+.hero-enlace:hover {
+	color: var(--color-blanco);
+	background-color: var(--color-texto);
+	border-radius: 1rem;
+	transition: all 0.3s ease-in-out;
 }
 
 /*Eslogan*/
 
 .eslogan {
 	margin: 5rem 0;
-  padding-bottom: 2rem;
+	padding-bottom: 2rem;
 	background-color: var(--color-primario);
-  text-align: center;
-  border-radius: 0.5rem;
-  color: var(--color-blanco);
+	text-align: center;
+	border-radius: 0.5rem;
+	color: var(--color-blanco);
 }
 
-.eslogan-titulo{
-  margin: 0;
+.eslogan-titulo {
+	margin: 0;
 }
 
-.eslogan-texto{
-  padding-bottom: 3rem;
-  margin: 0;
-  font-size: 2rem;
+.eslogan-texto {
+	padding-bottom: 3rem;
+	margin: 0;
+	font-size: 2rem;
 }
 
-.eslogan-boton{
-  background-color: var(--color-acento);
-  padding: 1rem;
-  border-radius: 1rem;
-  text-transform: uppercase;
-  font-weight: bold;
+.eslogan-boton {
+	background-color: var(--color-acento);
+	padding: 1rem;
+	border-radius: 1rem;
+	text-transform: uppercase;
+	font-weight: bold;
 }
 
-.eslogan-boton:hover{
-  color: var(--color-blanco);
-  background-color: var(--color-texto);
-  transition: all 0.3s ease-in-out;
+.eslogan-boton:hover {
+	color: var(--color-blanco);
+	background-color: var(--color-texto);
+	transition: all 0.3s ease-in-out;
 }

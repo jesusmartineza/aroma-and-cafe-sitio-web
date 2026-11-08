@@ -1,0 +1,148 @@
+/*Paleta de colores*/
+:root {
+	--color-primario: #2c1810; /*Cafe espresso muy obscuro*/
+	--color-secundario: #6f4e37; /*Cafe tostado*/
+	--color-acento: #c89d7c; /*Crema / avena tostada*/
+	--color-fondo: #f9f6f0; /*fondo crema claro / marfil */
+	--color-texto: #333333; /*Texto general*/
+	--color-blanco: #ffffff;
+}
+
+/* Reset html */
+html {
+	box-sizing: border-box; /* ! Sirve para que no modifique ningún elemento */
+	font-size: 62.5%; /** 1REM = 10PX */
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-color: var(--color-fondo);
+	color: var(--color-texto);
+	font-size: 1.6rem; /** 1.6rem = 16px */
+	line-height: 2;
+}
+
+/** Globales */
+
+h1,
+h2,
+h3 {
+	font-family: sans-serif;
+	margin: 0 0 2.5rem 0;
+}
+
+h1 {
+	font-size: 3.8rem;
+}
+
+@media (min-width: 768px) {
+	h1 {
+		font-size: 5rem;
+	}
+}
+
+h2 {
+	font-size: 3.2rem;
+}
+
+@media (min-width: 768px) {
+	h2 {
+		font-size: 5rem;
+	}
+}
+
+h3 {
+	font-size: 2.8rem;
+}
+
+@media (min-width: 768px) {
+	h3 {
+		font-size: 4rem;
+	}
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+/*Header*/
+
+.hero-header {
+	position: sticky;
+	top: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.hero-img {
+	height: 20rem;
+	width: auto;
+}
+
+.hero-navegacion {
+	font-size: 2rem;
+}
+
+.hero-enlace {
+	padding: 1rem 5rem;
+  font-weight: bold;
+  border-radius: 1rem;
+}
+
+.hero-enlace:hover{
+  color: var(--color-blanco);
+  background-color: var(--color-texto);
+  border-radius: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+/*Eslogan*/
+
+.eslogan {
+	margin: 5rem 0;
+  padding-bottom: 2rem;
+	background-color: var(--color-primario);
+  text-align: center;
+  border-radius: 0.5rem;
+  color: var(--color-blanco);
+}
+
+.eslogan-titulo{
+  margin: 0;
+}
+
+.eslogan-texto{
+  padding-bottom: 3rem;
+  margin: 0;
+  font-size: 2rem;
+}
+
+.eslogan-boton{
+  background-color: var(--color-acento);
+  padding: 1rem;
+  border-radius: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.eslogan-boton:hover{
+  color: var(--color-blanco);
+  background-color: var(--color-texto);
+  transition: all 0.3s ease-in-out;
+}
